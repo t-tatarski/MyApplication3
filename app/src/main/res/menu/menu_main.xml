@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add"  app:showAsAction="ifRoom"
+        android:iconTintMode="add" android:iconTint="@color/colorAccent"/>
+
+    <item
+        android:id="@+id/one"   android:title="one dice" />
+    <item
+        android:id="@+id/two" android:title="two dices" />
+
+</menu>
